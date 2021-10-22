@@ -7,6 +7,12 @@ https://channels.readthedocs.io/en/stable/tutorial/index.html
 
 # RUN
 
+## frontend build
+
+```
+npm run build
+```
+
 ## start redis server
 
 ```
@@ -18,6 +24,8 @@ docker run -p 6379:6379 -d redis:5
 ## start dev server
 ```
 pip3 install -U channels
+
+cd backend
 
 python3 manage.py runserver
 ```
